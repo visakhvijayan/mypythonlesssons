@@ -46,3 +46,14 @@ print (person)
 print (person2)
 print ('person 3',person3)
 print ('person 4',person4)
+
+# List of dict
+people =[
+    {'name':'Nainu','age':4}, 
+    {'name':'Avani','age':2}
+    ]
+
+print (people)
+print (people[0]['name'])
+for item in people:
+    print ('Name : ' ,item['name'])
